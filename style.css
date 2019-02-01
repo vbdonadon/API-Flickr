@@ -1,0 +1,24 @@
+#images {
+    max-width: 960px;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.images__title {
+    font-family: Arial;
+    text-align: center;
+    font-size: 32px;
+}
+
+.images__galery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.images__galery img{
+    display: block;
+    margin: 10px;
+    max-width: 300px;
+    width: 100%;
+}

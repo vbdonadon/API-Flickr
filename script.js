@@ -34,11 +34,11 @@ $(document).ready(function () {
     $.ajax({
         url: url,
         type: 'GET',
-        dataType: 'json',
+        dataType: 'json', 
         success: function (data) {
             const getPhoto = data.photos.photo;
             for (i = 0; i < 6; i++){
-                document.body.innerHTML += `<img src="https://farm${getPhoto[i].farm}.staticflickr.com/${getPhoto[i].server}/${getPhoto[i].id}_${getPhoto[i].secret}.jpg"/>`
+                document.getElementsByClassName('images__galery')[0].innerHTML += `<img src="https://farm${getPhoto[i].farm}.staticflickr.com/${getPhoto[i].server}/${getPhoto[i].id}_${getPhoto[i].secret}.jpg"/>`
             }
         },
     }).done(function () {
