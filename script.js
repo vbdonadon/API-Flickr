@@ -15,6 +15,6 @@ $(document).ready(function () {
     }).done(function () {
         console.log('Requisição feita.');
     }).fail(function() {
-        console.log('Falha na requisição.');
+        alert('Falha na requisição. Key expirada.');
     });
 });
