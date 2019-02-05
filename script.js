@@ -1,6 +1,6 @@
 // Crie um script em uma página hospedada no github onde que exiba 6 fotos obtidas através
 // da API do Flickr. Informe a URL para o exemplo que criou.
-const url = 'https://api.flickr.com/services/rest/?method=flickr.people.getPhotos&api_key=ec5ed7f7ffca85d7347031e853bf38eb&user_id=167980004%40N05&format=json&nojsoncallback=1&auth_token=72157678363201418-2f8dd87178a3dc5e&api_sig=44b183a5169b1802835a72006291036b'
+const url = 'https://api.flickr.com/services/rest/?method=flickr.people.getPhotos&api_key=9a0c761a0f9917ec4fdf98588e5d8de8&user_id=167980004%40N05&format=json&nojsoncallback=1&auth_token=72157706535097434-c7e381b221bd28e1&api_sig=ac4c71d40d12d445faf8f873f21e1cc7'
 $(document).ready(function () {
     $.ajax({
         url: url,
